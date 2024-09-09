@@ -1,0 +1,35 @@
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.deps.json
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.pdb
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.AssemblyInfoInputs.cache
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.AssemblyInfo.cs
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.csproj.CoreCompileInputs.cache
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\refint\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.pdb
+C:\Users\Jani\source\repos\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\ref\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.deps.json
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.pdb
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.AssemblyInfoInputs.cache
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.AssemblyInfo.cs
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.csproj.CoreCompileInputs.cache
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.sourcelink.json
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\refint\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.pdb
+C:\Users\Jani\Desktop\Saját projectek\csharp\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\ref\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.deps.json
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\bin\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.pdb
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.AssemblyInfoInputs.cache
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.AssemblyInfo.cs
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.csproj.CoreCompileInputs.cache
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.sourcelink.json
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\refint\sortingAlgorithmsVisualizer_classLib.dll
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\sortingAlgorithmsVisualizer_classLib.pdb
+C:\Users\Jani\Desktop\Saját projectek\csharp\My projects\sortingAlgorithmsVisualizer\sortingAlgorithmsVisualizer_classLib\obj\Debug\net8.0\ref\sortingAlgorithmsVisualizer_classLib.dll

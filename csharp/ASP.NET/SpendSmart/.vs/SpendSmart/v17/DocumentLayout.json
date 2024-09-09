@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|c:\\users\\jani\\desktop\\saj\u00E1t projectek\\csharp\\my projects\\asp.net\\spendsmart\\views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|solutionrelative:views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|c:\\users\\jani\\desktop\\saj\u00E1t projectek\\csharp\\my projects\\asp.net\\spendsmart\\views\\home\\createeditexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|solutionrelative:views\\home\\createeditexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|c:\\users\\jani\\desktop\\saj\u00E1t projectek\\csharp\\my projects\\asp.net\\spendsmart\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|c:\\users\\jani\\desktop\\saj\u00E1t projectek\\csharp\\my projects\\asp.net\\spendsmart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF8E60-5015-4B8E-B210-1A2DAEA625F4}|SpendSmart.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T13:32:06.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateEditExpense.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Views\\Home\\CreateEditExpense.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CreateEditExpense.cshtml",
+              "ToolTip": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Views\\Home\\CreateEditExpense.cshtml",
+              "RelativeToolTip": "Views\\Home\\CreateEditExpense.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T13:29:19.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expenses.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Views\\Home\\Expenses.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Expenses.cshtml",
+              "ToolTip": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Views\\Home\\Expenses.cshtml",
+              "RelativeToolTip": "Views\\Home\\Expenses.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T13:09:02.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Jani\\Desktop\\Saj\u00E1t projectek\\csharp\\My projects\\ASP.NET\\SpendSmart\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowBwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:02:30.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
