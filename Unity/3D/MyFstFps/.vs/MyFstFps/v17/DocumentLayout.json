@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{49957D95-D533-96DB-EB86-6EEB01D8830C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49957D95-D533-96DB-EB86-6EEB01D8830C}|Assembly-CSharp.csproj|c:\\users\\jani\\desktop\\github\\my-own-projects\\unity\\3d\\myfstfps\\assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49957D95-D533-96DB-EB86-6EEB01D8830C}|Assembly-CSharp.csproj|C:\\Users\\Jani\\Desktop\\GitHub\\My-own-projects\\Unity\\3D\\MyFstFps\\assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49957D95-D533-96DB-EB86-6EEB01D8830C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerLook.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAuwCUAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T17:37:10.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T17:37:10.589Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMotor.cs",
               "ToolTip": "C:\\Users\\Jani\\Desktop\\GitHub\\My-own-projects\\Unity\\3D\\MyFstFps\\Assets\\Scripts\\PlayerMotor.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMotor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAQwGsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T16:14:52.026Z",
               "EditorCaption": ""
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
               "ToolTip": "C:\\Users\\Jani\\Desktop\\GitHub\\My-own-projects\\Unity\\3D\\MyFstFps\\Assets\\Scripts\\InputManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T16:10:33.813Z",
               "EditorCaption": ""
