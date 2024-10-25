@@ -14,4 +14,4 @@ Backend:
     Frameworks:
         - ASP.NET Core
     Libraries:
-        - Entity Framework Core
+        - Entity Framework Core (nem, de kellene)

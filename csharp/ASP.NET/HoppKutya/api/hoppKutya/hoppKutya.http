@@ -1,0 +1,6 @@
+@hoppKutya_HostAddress = http://localhost:5027
+
+GET {{hoppKutya_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
