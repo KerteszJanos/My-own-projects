@@ -1,0 +1,23 @@
+Adatbázis beállítása az ASP.NET projektben:
+Az adatbázis eléréséhez először ConnectionString-et definiálunk az appsettings.json fájlban. A ConnectionString tartalmazza az adatbázis szerver címét, az adatbázis nevét, valamint a hitelesítési adatokat, amelyekkel a backend kapcsolatba tud lépni az adatbázissal.
+
+
+
+Modellek létrehozása:
+A projektben az adatbázis tábláinak megfelelően Model osztályokat hozunk létre. Ezek az osztályok az adatbázisban lévő táblák struktúráját reprezentálják és segítik az adatok kezelését az alkalmazásban.
+
+Minden modell az adott adatbázis tábla mezőit tartalmazza property-ként, így könnyen tudunk lekérdezni, módosítani és menteni adatokat az adatbázisból.
+
+
+
+API Controller végpontok létrehozása:
+A Controller osztályok felelnek az API végpontok definiálásáért és a kérések feldolgozásáért. Az egyes végpontokat a CRUD (Create, Read, Update, Delete) műveletekhez hozzuk létre, hogy az alkalmazás interakcióba léphessen az adatbázissal.
+
+Példa API végpontokra:
+GET: Adatok lekérése az adatbázisból.
+POST: Új adat hozzáadása az adatbázishoz.
+PUT: Meglévő adatok frissítése az adatbázisban.
+
+
+
+...

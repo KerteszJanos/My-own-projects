@@ -1,0 +1,15 @@
+A Folyamat:
+
+1. Felhasználói interakció: A felhasználó interakcióba lép az alkalmazás frontend részével (például űrlapkitöltés, gombnyomás).
+
+2. HTTP kérés küldése: A frontend JavaScript (Axios) segítségével HTTP kéréseket küld a backend API-jához.
+
+3. Backend feldolgozás: A backend (ASP.NET Core) fogadja a kérést, és a C# nyelv segítségével végrehajtja a szükséges üzleti 
+   logikát (pl. adatok ellenőrzése, manipuláció).
+
+4. Adatkezelés: Az Entity Framework Core használatával a backend lekérdezi vagy módosítja az adatokat az adatbázisban.
+
+5. Válasz küldése: A backend visszaküldi a választ (pl. JSON formátumban) a frontendnek.
+
+6. Frontend frissítése: A frontend JavaScript kódja (Vue.js) frissíti a felhasználói felületet a kapott adatokkal, lehetővé téve a
+   felhasználó számára, hogy lássa a módosításokat vagy az új információkat.

@@ -1,0 +1,54 @@
+1. URL (Uniform Resource Locator)
+Fő szerepe: Azonosítja a cél API végpontot, ahová a kérés irányul.
+Részei:
+Protokoll: Meghatározza a kapcsolódási protokollt, például https.
+Domain és útvonal: Meghatározza a szervert és az API konkrét végpontját, pl. https://api.example.com/department.
+Query paraméterek: Ezek a ? után következnek az URL-ben, és kulcs-érték párokként információt adnak át az API-nak. Pl. https://api.example.com/department?id=5.
+2. HTTP Metódus
+Fő szerepe: Meghatározza, hogy a kérés milyen műveletet végez az erőforráson.
+Gyakori metódusok:
+GET: Adatok lekérésére használatos, a válasz a kért adatokat tartalmazza.
+POST: Új adat hozzáadására szolgál.
+PUT: Létező adat módosítására használják.
+DELETE: Adat törlésére szolgál.
+3. Headers (Fejléc)
+Fő szerepe: Kiegészítő információk átadása a szervernek vagy az ügyfélnek.
+Gyakori fejléc típusok:
+Content-Type: Meghatározza a küldött adat típusát (pl. application/json a JSON adatokhoz).
+Authorization: Hitelesítési adatok, pl. Bearer token API-kulccsal.
+Accept: Az ügyfél által elfogadható válasz formátuma, pl. application/json.
+4. Body (Törzs)
+Fő szerepe: Tényleges adatok küldése a szerver felé, különösen POST, PUT és néha PATCH kéréseknél.
+Formátum: Gyakran JSON, de lehet XML vagy más adatstruktúra.
+Mikor használjuk: Ha egy bonyolult objektumot vagy nagyobb mennyiségű adatot kell átadni (pl. egy új adat hozzáadásánál vagy meglévő adat módosításánál).
+5. Params (Paraméterek)
+Fő szerepe: Specifikus adatok küldése az URL-ben, hogy az API jobban megértse a kérés kontextusát.
+Két típusa:
+Route parameters: Az URL részeként szereplő paraméterek. Ezek jellemzően az útvonal részei, pl. /department/5 (itt 5 az id).
+Query parameters: Az URL végén található, ? jel után következő kulcs-érték párok, pl. /department?id=5. Ezeket gyakran kisebb mennyiségű adatokhoz használják.
+
+Példa egy teljes API kérés felépítésére
+Tegyük fel, hogy frissíteni szeretnénk egy department nevű objektumot:
+
+http
+Kód másolása
+PUT https://api.example.com/department/5
+Content-Type: application/json
+Authorization: Bearer <API_Token>
+
+{
+  "DepartmentId": 5,
+  "DepartmentName": "Marketing"
+}
+URL: https://api.example.com/department/5 – megadja a szervernek a frissítendő department objektumot.
+HTTP metódus: PUT – jelzi, hogy módosítani szeretnénk az objektumot.
+Headers:
+Content-Type: application/json – jelzi, hogy a törzs JSON formátumú.
+Authorization: Bearer <API_Token> – hitelesíti a kérésünket.
+Body: A módosított adatokat tartalmazza (DepartmentId, DepartmentName).
+Összefoglalás
+URL: Meghatározza az API végpontot és a kérés célját.
+HTTP Metódus: Meghatározza a végrehajtandó műveletet (pl. GET, POST).
+Headers: Kiegészítő adatokat adnak hozzá (pl. tartalom típusa, hitelesítés).
+Body: A tényleges adatok átadására szolgál, amikor bonyolultabb objektumok is szükségesek (pl. POST vagy PUT).
+Params: Egyedi azonosítók vagy szűrők beállítására szolgál az URL-ben.

@@ -1,0 +1,17 @@
+Frontend:
+    Languages:
+        - HTML
+        - CSS
+        - JavaScript
+    Frameworks:
+        - Vue.js
+    Libraries:
+        - Axios
+
+Backend:
+    Languages:
+        - C#
+    Frameworks:
+        - ASP.NET Core
+    Libraries:
+        - Entity Framework Core
