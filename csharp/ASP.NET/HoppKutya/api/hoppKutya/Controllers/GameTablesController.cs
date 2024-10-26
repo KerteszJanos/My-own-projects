@@ -100,6 +100,7 @@ namespace hoppKutya.Controllers
             return NoContent();
         }
 
+
         private bool GameTablesExists(int id)
         {
             return _context.GameTables.Any(e => e.TableId == id);

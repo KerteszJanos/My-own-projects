@@ -16,6 +16,15 @@ namespace hoppKutya
 			builder.Services.AddDbContext<hoppkutyaDbContext>(options =>
 				options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+			// Add CORS policy
+			builder.Services.AddCors(options =>
+			{
+				options.AddPolicy("AllowSpecificOrigin",
+					builder => builder.WithOrigins("http://127.0.0.1:5500", "https://people.inf.elte.hu/am2vz8") // Engedélyezett origin-ek
+									  .AllowAnyMethod()
+									  .AllowAnyHeader());
+			});
+
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
@@ -30,6 +39,9 @@ namespace hoppKutya
 			}
 
 			app.UseHttpsRedirection();
+
+			// Use CORS
+			app.UseCors("AllowSpecificOrigin");
 
 			app.UseAuthorization();
 
