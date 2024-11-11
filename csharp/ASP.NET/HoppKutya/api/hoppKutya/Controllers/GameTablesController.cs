@@ -25,14 +25,22 @@ namespace hoppKutya.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<GameTables>>> GetGameTables()
         {
-            return await _context.GameTables.ToListAsync();
+			Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0";
+			Response.Headers["Pragma"] = "no-cache";
+			Response.Headers["Expires"] = "0";
+
+			return await _context.GameTables.ToListAsync();
         }
 
         // GET: api/GameTables/5
         [HttpGet("{id}")]
         public async Task<ActionResult<GameTables>> GetGameTables(int id)
         {
-            var gameTables = await _context.GameTables.FindAsync(id);
+			Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0";
+			Response.Headers["Pragma"] = "no-cache";
+			Response.Headers["Expires"] = "0";
+
+			var gameTables = await _context.GameTables.FindAsync(id);
 
             if (gameTables == null)
             {
@@ -47,7 +55,11 @@ namespace hoppKutya.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGameTables(int id, GameTables gameTables)
         {
-            if (id != gameTables.TableId)
+			Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0";
+			Response.Headers["Pragma"] = "no-cache";
+			Response.Headers["Expires"] = "0";
+
+			if (id != gameTables.TableId)
             {
                 return BadRequest();
             }
@@ -78,7 +90,11 @@ namespace hoppKutya.Controllers
         [HttpPost]
         public async Task<ActionResult<GameTables>> PostGameTables(GameTables gameTables)
         {
-            _context.GameTables.Add(gameTables);
+			Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0";
+			Response.Headers["Pragma"] = "no-cache";
+			Response.Headers["Expires"] = "0";
+
+			_context.GameTables.Add(gameTables);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetGameTables", new { id = gameTables.TableId }, gameTables);
@@ -88,7 +104,11 @@ namespace hoppKutya.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGameTables(int id)
         {
-            var gameTables = await _context.GameTables.FindAsync(id);
+			Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0";
+			Response.Headers["Pragma"] = "no-cache";
+			Response.Headers["Expires"] = "0";
+
+			var gameTables = await _context.GameTables.FindAsync(id);
             if (gameTables == null)
             {
                 return NotFound();

@@ -20,7 +20,7 @@ namespace hoppKutya
 			builder.Services.AddCors(options =>
 			{
 				options.AddPolicy("AllowSpecificOrigin",
-					builder => builder.WithOrigins("http://127.0.0.1:5500", "https://people.inf.elte.hu/am2vz8") // Engedélyezett origin-ek
+					builder => builder.WithOrigins("http://127.0.0.1:5500", "https://hoppkutya.z38.web.core.windows.net")
 									  .AllowAnyMethod()
 									  .AllowAnyHeader());
 			});

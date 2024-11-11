@@ -31,3 +31,9 @@ body {
 .pressed-btn-text{
     font-size: 0.6em;
 }
+
+.container {
+    max-height: 90vh;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}

@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data() {
         return {
             gameTables: [],
-            isFirstAidButtonPressed : false
+            NewPlayer1Name: '',
+            NewPlayer2Name: ''
         }
     },
     mounted() {
@@ -10,7 +11,7 @@ const app = Vue.createApp({
     },
     methods: {
         refreshData() {
-            axios.get("https://localhost:7027/api/GameTables")
+            axios.get("https://hoppkutya-e3gwgucscagvafbk.italynorth-01.azurewebsites.net/api/GameTables")
                 .then((response) => {
                     this.gameTables = response.data.map(table => ({
                         ...table,
@@ -50,10 +51,9 @@ const app = Vue.createApp({
             if (!confirm("Biztosan ki szeretnéd törölni ezt a játékot?")) {
                 return;
             }
-            axios.delete("https://localhost:7027/api/GameTables/" + tableId)
+            axios.delete("https://hoppkutya-e3gwgucscagvafbk.italynorth-01.azurewebsites.net/api/GameTables/" + tableId)
                  .then((response) => {
                     this.refreshData();
-                    alert("Játék sikeresen törölve!");
                  })
                  .catch((error) => {
                     console.error("Error during deleting", error);
@@ -63,9 +63,30 @@ const app = Vue.createApp({
         hoppKutyaPressed(tableId, playerId){
             const table = this.gameTables.find(t => t.tableId === tableId);
             if (table) {
+                if (!confirm(`Biztosan módosítani szeretnéd a pontszámot a ${table.player1} - ${table.player2} táblán?`)) {
+                    return;
+                }                
+
                 let currentTime = new Date()
+                let lastHoppKutya = new Date(table.lastHoppKutya);
 
                 let multiplier = 1;
+                if(lastHoppKutya.getFullYear() != currentTime.getFullYear()) //Yearly
+                {
+                    multiplier += 10;
+                }
+                if(lastHoppKutya.getMonth() != currentTime.getMonth()) //Monthly
+                {
+                    multiplier += 6;
+                }
+                if(this.getWeekNumber(lastHoppKutya) != this.getWeekNumber(currentTime)) //Weekly
+                {
+                    multiplier += 3;
+                }
+                if(lastHoppKutya.getDate() != currentTime.getDate()) //Daily
+                {   
+                    multiplier += 1.5;
+                }
                 if(table.isFirstAidButtonPressed){
                     multiplier *= 2;
                 }
@@ -78,13 +99,15 @@ const app = Vue.createApp({
                 
                 let player1CalculatedPoints = table.player1Points;
                 let player2CalculatedPoints = table.player2Points;
+                let secondInADay = 60*60*24;
+
                 if(playerId == 1){
-                    player1CalculatedPoints += (1 + (Math.floor((currentTime - new Date(table.lastHoppKutya)) / 1000) /1000000)) * multiplier;
+                    player1CalculatedPoints += (1 + (Math.floor((currentTime - lastHoppKutya) / 1000) /secondInADay)) * multiplier;
                 }
                 else{
-                    player2CalculatedPoints += (1 + (Math.floor((currentTime - new Date(table.lastHoppKutya)) / 1000) /1000000)) * multiplier;
+                    player2CalculatedPoints += (1 + (Math.floor((currentTime - lastHoppKutya) / 1000) /secondInADay)) * multiplier;
                 }
-                axios.put("https://localhost:7027/api/GameTables/" + tableId, {
+                axios.put("https://hoppkutya-e3gwgucscagvafbk.italynorth-01.azurewebsites.net/api/GameTables/" + tableId, {
                         tableId: table.tableId,
                         player1: table.player1,
                         player2: table.player2,
@@ -92,13 +115,41 @@ const app = Vue.createApp({
                         player2Points: player2CalculatedPoints,
                         lastHoppKutya: currentTime.toISOString()},)
                       .then((response) => {
-                        this.refreshData(); 
-                        alert(response.data);})
+                        this.refreshData();})
                       .catch((error) => {
                         console.error("Error during API call:", error);
                         alert("Hiba történt az API hívás során.");});
             }
-        }    
+        },
+        getWeekNumber(date) {
+            const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+            
+            d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+            
+            const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+            
+            const weekNumber = Math.ceil(((d - yearStart) / 86400000 + 1) / 7);
+            
+            return weekNumber;
+        },
+        newGameClick()
+        {
+            currentTime = new Date();
+            axios.post("https://hoppkutya-e3gwgucscagvafbk.italynorth-01.azurewebsites.net/api/GameTables", {
+                player1: this.NewPlayer1Name,
+                player2: this.NewPlayer2Name,
+                player1Points: 0,
+                player2Points: 0,
+                lastHoppKutya: currentTime.toISOString()},)
+              .then((response) => {
+                window.location.reload();})
+              .catch((error) => {
+                console.error("Error during API call:", error);
+                alert("Hiba történt az API hívás során.");});
+        },
+        formatPoints(points) {
+            return points.toFixed(2);
+        }
     }
 });
 
